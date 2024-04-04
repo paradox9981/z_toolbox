@@ -1,19 +1,28 @@
 <p>&nbsp;</p>
-<figure class="table">
-    <table>
+<figure class="table" style="width:79.71%;">
+    <table class="ck-table-resized">
+        <colgroup>
+            <col style="width:100%;">
+        </colgroup>
         <thead>
             <tr>
-                <th><strong>put the default folder in the below maya directory</strong></th>
-            </tr>
-            <tr>
-                <th><u>C:\Users\abhis\Documents\maya\projects</u></th>
-            </tr>
-            <tr>
-                <th>This should open the scene sample file without any issue, if there is a missing file path then reload with the cache path from the folder</th>
+                <th>
+                    <p style="text-align:center;"><strong>PUT THE DEFAULT FOLDER IN THE BELOW MAYA DIRECTORY</strong></p>
+                </th>
             </tr>
             <tr>
                 <th>
-                    <p style="text-align:center;"><span style="color:#cddc39;">paste the toolbox folder in the maya version directory</span><br><sup>C:\Users\abhis\Documents\maya\&lt;version&gt;\scripts\</sup></p>
+                    <p style="text-align:center;"><i><sub><u>c:\users\abhis\documents\maya\projects</u></sub></i></p>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <h3 style="text-align:center;">This should open the scene sample file without any issue,&nbsp;<br>if there is a missing file path then reload with the cache path from the folder</h3>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <p style="text-align:center;"><span style="color:#cddc39;">paste the toolbox folder in the maya version directory</span><br><i><sup>C:\Users\abhis\Documents\maya\&lt;version&gt;\scripts\</sup></i></p>
                 </th>
             </tr>
             <tr>
