@@ -1,0 +1,50 @@
+/*
+ ██████╗ ███████╗██╗     ██╗██████╗ ███████╗██████╗     ███████╗███████╗███████╗███████╗ ██████╗████████╗     ██████╗  ██╗
+██╔═══██╗██╔════╝██║     ██║██╔══██╗██╔════╝██╔══██╗    ██╔════╝██╔════╝██╔════╝██╔════╝██╔════╝╚══██╔══╝    ██╔═████╗███║
+██║   ██║███████╗██║     ██║██║  ██║█████╗  ██████╔╝    █████╗  █████╗  █████╗  █████╗  ██║        ██║       ██║██╔██║╚██║
+██║▄▄ ██║╚════██║██║     ██║██║  ██║██╔══╝  ██╔══██╗    ██╔══╝  ██╔══╝  ██╔══╝  ██╔══╝  ██║        ██║       ████╔╝██║ ██║
+╚██████╔╝███████║███████╗██║██████╔╝███████╗██║  ██║    ███████╗██║     ██║     ███████╗╚██████╗   ██║       ╚██████╔╝ ██║
+ ╚══▀▀═╝ ╚══════╝╚══════╝╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚══════╝╚═╝     ╚═╝     ╚══════╝ ╚═════╝   ╚═╝        ╚═════╝  ╚═╝
+                                                                                                                          */
+QSlider {background-color: rgba(22, 22, 22, 0.7);padding-top: 15px;  /*上面端点离顶部的距离*/padding-bottom: 15px;border-radius: 5px; /*外边框矩形倒角*/}
+QSlider::add-page:vertical {background-color: #FF7826;width:5px;border-radius: 2px;}
+QSlider::sub-page:vertical {background-color: #7A7B79;width:5px;border-radius: 2px;}
+QSlider::groove:vertical {background:transparent;width:6px;}
+QSlider::handle:vertical {height: 14px;  width: 14px;margin: 0px -4px 0px -4px;border-radius: 7px;background: white;}
+/*
+
+ ██████╗ ███████╗██╗     ██╗██████╗ ███████╗██████╗     ███████╗███████╗███████╗███████╗ ██████╗████████╗     ██████╗ ██████╗ 
+██╔═══██╗██╔════╝██║     ██║██╔══██╗██╔════╝██╔══██╗    ██╔════╝██╔════╝██╔════╝██╔════╝██╔════╝╚══██╔══╝    ██╔═████╗╚════██╗
+██║   ██║███████╗██║     ██║██║  ██║█████╗  ██████╔╝    █████╗  █████╗  █████╗  █████╗  ██║        ██║       ██║██╔██║ █████╔╝
+██║▄▄ ██║╚════██║██║     ██║██║  ██║██╔══╝  ██╔══██╗    ██╔══╝  ██╔══╝  ██╔══╝  ██╔══╝  ██║        ██║       ████╔╝██║██╔═══╝ 
+╚██████╔╝███████║███████╗██║██████╔╝███████╗██║  ██║    ███████╗██║     ██║     ███████╗╚██████╗   ██║       ╚██████╔╝███████╗
+ ╚══▀▀═╝ ╚══════╝╚══════╝╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚══════╝╚═╝     ╚═╝     ╚══════╝ ╚═════╝   ╚═╝        ╚═════╝ ╚══════╝
+*/                                                                                                                              
+
+QSlider{background-color: #363636; border-style: outset; border-radius: 1px; }
+QSlider::groove:horizontal {border: 1px solid #bbb;background: white;height: 10px;border-radius: 1px;}
+QSlider::handle:horizontal {background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #fff, stop:1 #ddd);
+border: 1px solid #444;border-radius: 1px;}
+QSlider::sub-page:horizontal:disabled {background: #bbb;border-color: #999; }  
+QSlider::add-page:horizontal:disabled {background: #eee;border-color: #999; }  
+QSlider::handle:horizontal:disabled {background: #eee;border: 1px solid #aaa;border-radius: 4px; }  
+QSlider::handle:horizontal:hover {background: qlineargradient(x1:0, y1:0, x2:1, y2:1,  stop:0 #fff, stop:1 #ddd);
+border: 1px solid #444;border-radius: 1px; } 
+QSlider::sub-page:horizontal {background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1, stop: 0 #bbf, stop: 1 #55f);
+border: 1px solid #777;height: 10px;border-radius: 1px; }  
+QSlider::add-page:horizontal {background: #fff;  border: 1px solid #777; height: 10px; border-radius: 1px; } 
+QSlider::groove:vertical {border: 1px solid #3A3939;width: 8px;background: #201F1F;margin: 0 0px;border-radius: 2px;}
+QSlider::handle:vertical {background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0.0 silver,stop: 0.2 #a8a8a8, stop: 1 #727272); 
+border: 1px solid #3A3939;width: 14px;height: 14px;margin: 0 -4px;border-radius: 2px;}
+/*
+ ██████╗ ███████╗██╗     ██╗██████╗ ███████╗██████╗     ███████╗███████╗███████╗███████╗ ██████╗████████╗     ██████╗ ██████╗ 
+██╔═══██╗██╔════╝██║     ██║██╔══██╗██╔════╝██╔══██╗    ██╔════╝██╔════╝██╔════╝██╔════╝██╔════╝╚══██╔══╝    ██╔═████╗╚════██╗
+██║   ██║███████╗██║     ██║██║  ██║█████╗  ██████╔╝    █████╗  █████╗  █████╗  █████╗  ██║        ██║       ██║██╔██║ █████╔╝
+██║▄▄ ██║╚════██║██║     ██║██║  ██║██╔══╝  ██╔══██╗    ██╔══╝  ██╔══╝  ██╔══╝  ██╔══╝  ██║        ██║       ████╔╝██║ ╚═══██╗
+╚██████╔╝███████║███████╗██║██████╔╝███████╗██║  ██║    ███████╗██║     ██║     ███████╗╚██████╗   ██║       ╚██████╔╝██████╔╝
+ ╚══▀▀═╝ ╚══════╝╚══════╝╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚══════╝╚═╝     ╚═╝     ╚══════╝ ╚═════╝   ╚═╝        ╚═════╝ ╚═════╝ 
+  */                                                                                                                            
+QSlider::groove:horizontal{border:none; height:73px; border-radius:6px; border-image:url(:/new/prefix1/b1.png);}"
+QSlider::handle:horizontal{border:none; margin:20px 0px; width:22px; height:22px; border-radius:20px;"}
+QSlider::sub-page:horizontal{background:rgba(0, 19, 39, 0); border-radius:6px;}
+QSlider::add-page:horizontal{background:rgba(0, 19, 39, 0); border-radius:6px;}
